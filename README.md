@@ -14,9 +14,6 @@ This is a solution to the [Product preview card component challenge on Frontend 
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -29,7 +26,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot/product-card.png.jpg)
+![](./screenshot/product-card.png)
 ![](./screenshot/product-card01.png)
 
 **Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
@@ -88,5 +85,5 @@ I would also love to be able to use the css sizing units skillfully.
 ## Author
 
 - Website - [Emmanuel Julius](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@Julius-Java](https://www.frontendmentor.io/profile/Julius-Java)
 - Twitter - [@Julius_Java00](https://www.twitter.com/Julius_Java00)
