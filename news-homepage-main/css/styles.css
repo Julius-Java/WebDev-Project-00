@@ -37,7 +37,7 @@ h1 {
 }
 
 .info {
-    padding-top: 15px;
+    padding-top: 20px;
     margin-bottom: 20px;
 }
 
@@ -93,7 +93,7 @@ hr {
 
 .fx  {
     margin-bottom: 0;
-    padding-top: 15px;
+    padding-top: 20px;
 }
 
 /* Foot Section  */
@@ -128,8 +128,13 @@ hr {
     margin-bottom: 20px;
 }
 
+.footer img {
+    width: 200px;
+    height: 200px;
+}
+
 /* Media Query for mobile  */
-/* @media only screen and (max-width: 450px) {
+@media only screen and (max-width: 450px) {
     h1 {
         font-size: 35px;
     }
@@ -149,7 +154,11 @@ hr {
         line-height: 16px;
 
     }
-} */
+
+    .footer img {
+        height: 120px;
+    }
+}
 
 @media only screen and (width: 280px) {
     h1 {
@@ -160,6 +169,18 @@ hr {
 @media only screen and (max-width: 600px) {
     .container-fluid {
         padding: 1.5% 10%;
+    }
+}
+
+@media only screen and (max-width: 1440px) {
+    .container-fluid {
+        padding: 1.5% 5%;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .container-fluid {
+        padding: 1.5% 20%;
     }
 }
 
