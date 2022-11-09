@@ -190,4 +190,10 @@ hr {
     }
 }
 
+@media only screen and  (max-width: 375px) {
+    .container-fluid {
+        padding: 1.5% 10%;
+    }
+}
+
 
