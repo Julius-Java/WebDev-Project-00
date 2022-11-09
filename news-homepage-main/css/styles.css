@@ -1,0 +1,166 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #fff;
+}
+
+p {
+    font-size: 15px;
+}
+
+/* Navigation */
+.container-fluid {
+    padding: 1.5% 18%;
+}
+
+.nav-link:hover {
+    color: hsl(5, 85%, 63%);
+}
+
+.navbar-brand {
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+/* Main Head  */
+    /* Section one */
+picture img {
+    width: 100%;
+}
+
+h1 {
+    font-weight: 800;
+    line-height: 1.2;
+    font-size: 45px;
+    width: 90%;
+    color: hsl(240, 100%, 5%);
+}
+
+.info {
+    padding-top: 15px;
+    margin-bottom: 20px;
+}
+
+.info p {
+    line-height: 1.8;
+    margin-bottom: 30px;
+}
+
+.btn {
+    width: 60%;
+    border-radius: 0;
+    padding: 15px 3px;
+    background-color: hsl(5, 85%, 63%);
+    color: white;
+    font-weight: bold;
+    letter-spacing: 2px;
+    outline: none;
+}
+
+.btn:hover {
+    background-color: hsl(240, 100%, 5%);
+    color: hsl(233, 8%, 79%);
+}
+    /* Section two */
+h2 {
+    color: hsl(35, 77%, 62%);
+    font-weight: bold;
+    font-size: 35px;
+    letter-spacing: 3px;
+    padding-bottom: 20px;
+}
+
+.new {
+    padding: 20px;
+    background-color: hsl(240, 100%, 5%);
+    color: white;
+}
+
+.new-info h4 {
+    color: hsl(36, 100%, 99%);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.new-info p {
+    color: hsl(233, 8%, 79%);
+    padding-right: 20px;
+}
+
+hr {
+    margin: 40px 0;
+}
+
+.fx  {
+    margin-bottom: 0;
+    padding-top: 15px;
+}
+
+/* Foot Section  */
+.foot {
+    margin-top: 20px;
+}
+
+.foot h5 {
+    color: hsl(233, 8%, 79%);
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+.foot h6 {
+    color: hsl(240, 100%, 5%);
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.foot p {
+    line-height: 1.5;
+    font-size: 15px;
+}
+
+.col-5 {
+    padding-left: 0;
+}
+
+.col-lg-4 {
+    margin-bottom: 20px;
+}
+
+/* Media Query for mobile  */
+/* @media only screen and (max-width: 450px) {
+    h1 {
+        font-size: 35px;
+    }
+
+    .foot h5 {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    .foot h6 {
+        font-size: 12px;
+        margin-bottom: 5px;
+    }
+
+    .foot p {
+        font-size: 10px;
+        line-height: 16px;
+
+    }
+} */
+
+@media only screen and (width: 280px) {
+    h1 {
+        font-size: 35px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .container-fluid {
+        padding: 1.5% 10%;
+    }
+}
+
+
