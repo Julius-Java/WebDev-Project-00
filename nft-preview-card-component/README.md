@@ -76,6 +76,6 @@ I still need to practice more with the flex property and how it manipulates elem
 - [Resource 2](https://codepen.io/mobas/pen/YRVZZy) - This codepen example helped me place align my eth and clock icon vertically with their respective paragraph tags
 
 ## Author
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/Julius-Java)
-- Twitter - [@yourusername](https://www.twitter.com/Julius_Java00)
+- Frontend Mentor - [@Julius-Java](https://www.frontendmentor.io/profile/Julius-Java)
+- Twitter - [@Julius_Java00](https://www.twitter.com/Julius_Java00)
 
