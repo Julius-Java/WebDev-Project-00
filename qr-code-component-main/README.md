@@ -20,10 +20,10 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ### Screenshot
 
 ![](./screenshot/Desktop-view.png)
-A screenshot of the Desktop view
+- A screenshot of the Desktop view
 
 ![](./screenshot/mobile-view.png)
-A screenshot of the Mobile view
+- A screenshot of the Mobile view
 
 ### Links
 
