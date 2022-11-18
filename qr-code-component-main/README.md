@@ -27,8 +27,8 @@ A screenshot of the Mobile view
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/qrcode-component-kh55_l9VuB)
+- Live Site URL: [Github Pages](https://julius-java.github.io/WebDev-Project-00/qr-code-component-main/)
 
 ## My process
 
