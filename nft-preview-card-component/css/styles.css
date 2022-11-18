@@ -1,0 +1,155 @@
+body {
+    margin: 0;
+    color: white;
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+}
+
+p {
+    font-size: 18px;
+    font-weight: 100;
+    margin-bottom: 10;
+    color: hsl(215, 51%, 70%);
+}
+
+/* Image section */
+.main-div {
+    background-color: hsl(216, 50%, 16%);
+    padding: 20px;
+    margin: 10% auto 0 auto;
+    max-width: 360px;
+    border-radius: 15px;
+}
+
+img {
+    max-width: 100%;
+}
+
+.main-img {
+    border-radius: 15px;
+}
+
+/* Info section */
+.card-body {
+    padding: 5px;
+}
+
+.header-text {
+    font-size: 22px;
+    margin: 20px 0;
+    font-weight: bold;
+}
+
+/* Price section */
+.price-section {
+    margin-top: 10px;
+    display: flex;
+}
+
+.price-section img {
+    margin-right: 7px;
+}
+
+.price-section p {
+    font-size: 15px;
+    align-self: center;
+}
+
+.flex {
+    flex: 50%;
+}
+
+.eth-info, .time-left {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.eth-info p {
+    color: hsl(178, 100%, 50%);
+    font-weight: bold;
+}
+
+.time-left {
+    justify-content: end;
+}
+
+/* Bootom section */
+.avatar {
+    max-width: 40px;
+    border: 1.5px solid white;
+    border-radius: 100%;
+    margin-right: 20px;
+}
+
+.creator-info picture, .creator-info p {
+    display: inline-block;
+}
+
+.creator-info p {
+    font-size: 16px;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+
+hr {
+    border: hsl(215, 32%, 27%);
+}
+
+span {
+    color: white;
+}
+
+
+/* Hover styles */
+.image-section {
+    position: relative;
+}
+
+.svg-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transition: .5s ease;
+    background-color: hsl(178, 100%, 50%);
+    border-radius: 15px;
+    display: none;
+}
+
+.image-section:hover .svg-overlay  {
+    display: block;
+    cursor: pointer;
+    background-color: hsla(178, 100%, 50%, 0.3);
+}
+
+
+.svg-img {
+    position: absolute;
+    top: 46%;
+    left: 43%;
+    text-align: center;
+}
+
+.header-text:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+span:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+@media (max-width: 500px)
+{
+    .main-div {
+        width: 320px;
+        margin: 15% auto 0 auto;
+        padding: 12px;
+    }
+}
