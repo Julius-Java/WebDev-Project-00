@@ -1,0 +1,61 @@
+@media (max-width: 920px) {
+    /* Navigation section */
+    body {
+        background: linear-gradient(to top, white 70%, #006D77 30%);
+    }
+
+    .navbar.general-padding {
+        padding-top: 0.3rem;
+    }
+
+    .navbar img {
+        width: 40px;
+    }
+
+    .nav-link {
+        color: white;
+        font-size: 16px;
+    }
+
+    .img-number {
+        display: none;
+    }
+
+    .visible-lg {
+        display: none;
+    }
+
+    .invinsible-lg {
+        display: block;
+    }
+
+    .img-container {
+        text-align: center;
+        padding: 0;
+    }
+
+    .plant-info, .plant-description {
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .plant-info {
+        padding-top: 1rem;
+    }
+
+    footer {
+        text-align: center;
+    }
+
+    footer.general-padding {
+        padding: 1rem 4rem;
+    }
+
+    .nav-link {
+        font-size: 0.85rem;
+    }
+
+    .navbar.general-padding {
+        padding: 0.3rem 10rem 1rem;
+    }
+}

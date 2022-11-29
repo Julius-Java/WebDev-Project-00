@@ -1,0 +1,176 @@
+html {
+    width: 100%;
+}
+
+body {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background: linear-gradient(to right, white 70%, #006D77 30%);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    font-family: 'Cabin', sans-serif;
+}
+
+.mobileView {
+    display: none;
+}
+
+.desktopView {
+    position: relative;
+}
+
+section:not(section#footer) {
+    margin-bottom: 4%;
+}
+
+/* Navigation */
+.general-padding {
+    padding-top: 1rem;
+}
+
+.nav-link {
+    color: black;
+}
+
+/* Main Section */
+.plant-info {
+    padding-top: 3rem;
+}
+
+picture img {
+    max-width: 100%;
+}
+
+.plant-name {
+    font-weight: 600;
+}
+
+.plant-h1 {
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-size: 3.1rem;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-image: url("../images/text-bg.jpg");
+    margin-bottom: 1rem;
+}
+
+.plant-description {
+    line-height: 1.7;
+    margin-bottom: 1.5rem;
+}
+
+.fa-solid {
+    color: #006D77;
+    cursor: pointer;
+}
+
+.carousel-button {
+    margin-bottom: 1rem;
+}
+
+figure {
+    text-align: center;
+}
+
+.img-number {
+    font-weight: bold;
+    font-size: 2.5rem;
+    background-color: #006D77;
+    max-width: 67px;
+    text-align: center;
+    padding: 0.4rem 0.35rem;
+    color: white;
+    position: absolute;
+    left: -2%;
+    top: 90%;
+}
+
+/* Footer */
+footer {
+    margin-top: 0.8rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+
+@media (max-width: 767px) {
+    body {
+        background: linear-gradient(to top, white 70%, #006D77 30% );
+    }
+
+    .mobileView {
+        display: block;
+    }
+
+    .desktopView {
+        display: none;
+    }
+
+    .img-number {
+        display: none;
+    }
+
+    /* Navigation Section */
+    .nav-link {
+        color: white;
+    }
+
+    /* Main Section */
+    .plant-info {
+        text-align: center;
+    }
+
+    .plant-name {
+        display: none;
+    }
+
+    .gallery {
+        margin-top: 1.2rem;
+    }
+
+    .navbar-brand, .profile-pic {
+        width: 40px;
+    }
+
+    footer {
+        text-align: center;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    /* Main Section */
+    .plant-h1 {
+        font-size: 2.3rem;
+    }
+
+    .plant-description {
+        font-size: 0.85rem;
+        line-height: 1.5;
+    }
+
+    .img-number {
+        top: 80%;
+    }
+}
+
+@media (max-width: 576px) {
+    body {
+        padding: 0 0.85rem;
+    }
+
+    .mobileView {
+        text-align: center;
+    }
+
+    /* Main Section */
+    .plant-h1 {
+        font-size: 2.2rem;
+    }
+    .plant-description {
+        font-size: 0.87rem;
+    }
+}
