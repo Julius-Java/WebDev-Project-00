@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Overpass', sans-serif;
+    color: white;
+    background-color:  hsl(216, 12%, 8%);
+}
+
+picture img {
+    max-width: 100%;
+}
+
+p {
+    color: hsl(216, 12%, 54%);
+    font-weight: 400;
+}
+
+.card {
+    max-width: 400px;
+    padding: 1rem;
+    margin: 10% auto;
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 15px;
+}
+
+.img-top {
+    padding: 0.5rem 0.5rem 0.6rem;
+}
+
+.img-top img {
+    max-width: 100;
+    background-color: hsl(216, 12%, 25%);
+    padding: 0.85rem;
+    border-radius: 100%;
+}
+
+.card-title {
+    font-weight: 700;
+}
+
+.card-text {
+    text-align: justify;
+}
+
+.rate-btn {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rate-btn .btn {
+    color: hsl(216, 12%, 54%);
+    text-align: center;
+    padding: 12px 20px;
+    border-radius: 25px;
+    background-color: hsl(216, 12%, 25%);
+}
+
+.rate-btn .btn:hover {
+    background-color: hsl(217, 12%, 63%);
+    color: white;
+}
+
+.d-grid .btn {
+    border-radius: 25px;
+    background-color: hsl(25, 97%, 53%);
+    border-color: hsl(25, 97%, 53%);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    letter-spacing: 1.5px;
+}
+
+.d-grid .btn:hover {
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+    border-color: white;
+}
+
+.thank-you img {
+    display: block;
+}
+
+.rate-info {
+    margin: 0 auto;
+    text-align: center;
+    width: 200px;
+    background-color: hsl(216, 12%, 30%);
+    color:hsl(25, 97%, 53%);
+    border-radius: 15px;
+}
+
+.rate-click {
+    background-color: hsl(25, 97%, 53%) !important;
+    color: white !important;
+}
+
+#thank-you-stage {
+    display: none;
+}
+
+@media (max-width: 450px) {
+    .card {
+        max-width: 300px;
+        padding: 0.2rem;
+        padding-top: 0.8rem;
+        margin: 30% auto;
+    }
+
+    .img-top img {
+        padding: 0.55rem;
+    }
+
+    .rate-btn .btn {
+        padding: 9px 17px;
+    }
+}
