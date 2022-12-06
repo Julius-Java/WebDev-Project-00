@@ -37,8 +37,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/Julius-Java/WebDev-Project-00/tree/master/interactive-rating-component-main)
+- Live Site URL: [Add live site URL here](https://julius-java.github.io/WebDev-Project-00/interactive-rating-component-main/index.html)
 
 ## My process
 
