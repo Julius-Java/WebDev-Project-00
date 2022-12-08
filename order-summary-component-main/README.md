@@ -23,10 +23,10 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot/orderSummary-desktop.png.jpg)
+![](./screenshot/orderSummary-desktop.png)
 - Desktop View
 
-![](./screenshot/orderSummary-mobile.png.jpg)
+![](./screenshot/orderSummary-mobile.png)
 - Mobile View
 
 ### Links
