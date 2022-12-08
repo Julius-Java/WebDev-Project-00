@@ -37,6 +37,7 @@ body {
     color: hsl(224, 23%, 55%);
     line-height: 1.5;
     letter-spacing: 1px;
+    width: 90%;
 }
 
 .order-info {
